@@ -27,8 +27,7 @@ public class searchMessage extends Thread {
         Pattern searchStr = Pattern.compile(message);
         Matcher mSearchStr;
 
-        try (BufferedReader inFile = new BufferedReader(new FileReader(file));
-             BufferedWriter outFile = new BufferedWriter(new FileWriter("src\\ru\\tds\\files\\outFile.txt",false))) {
+        try (BufferedReader inFile = new BufferedReader(new FileReader(file))) {
             for (int i = 1; (string = inFile.readLine()) != null;i++) {
 
                 mSearchStr = searchStr.matcher(string);
