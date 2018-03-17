@@ -6,7 +6,9 @@ import java.awt.event.ActionListener;
 import java.io.File;
 
 /**
- * Класс, в котором реализован поиск текстовых файлов в файловой системе, начиная с заданного каталога.
+ * Класс, в котором с помощью графического интерфейса реализован ввод исходного сообщения,
+ * которое нужно найти, выбор стартового каталога для поиска, и, соответственно,
+ * поиск текстовых файлов в файловой системе, согласно шаблону регулярного выражения, начиная с заданного каталога.
  *
  * @author Трушенков Дмитрий 15ИТ18
  */
@@ -51,6 +53,13 @@ public class ReadDirectory extends JPanel implements ActionListener {
         add(label);
     }
 
+    /**
+     * Метод для поиска файлов с помощью регулярного выражения
+     * и запуска потока для поиска заданного текста в найденных файлах.
+     *
+     * @param pathDirectory директория
+     * @param messageForSearch сообщение для поиска
+     */
     private static void fileExplorer(File pathDirectory, String messageForSearch) {
         try {
             File[] files = pathDirectory.listFiles();
@@ -63,7 +72,7 @@ public class ReadDirectory extends JPanel implements ActionListener {
                 }
             }
         } catch (NullPointerException e) {
-            //e.printStackTrace();
+            e.printStackTrace();
         }
     }
 
