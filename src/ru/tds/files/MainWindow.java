@@ -14,11 +14,10 @@ public class MainWindow extends JFrame {
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         setSize(600,600);
         setLocation(400,400);
-        add(new ReadDirectory());
+        add(new GraphicsInterface());
         setVisible(true);
         setResizable(true);
     }
-
 
     public static void main(String[] args) {
         MainWindow mw = new MainWindow();
