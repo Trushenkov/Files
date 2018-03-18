@@ -1,7 +1,6 @@
 package ru.tds.files;
 
 import javax.swing.*;
-import java.awt.*;
 
 /**
  * Класс для запуска окна программы.
