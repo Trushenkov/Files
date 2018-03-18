@@ -1,6 +1,7 @@
 package ru.tds.files;
 
 import javax.swing.*;
+import java.awt.*;
 
 /**
  * Класс для запуска окна программы.
@@ -12,11 +13,11 @@ public class MainWindow extends JFrame {
     private MainWindow(){
         setTitle("Поиск текста в текстовых файла файловой системы");
         setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-        setSize(350,350);
+        setSize(600,600);
         setLocation(400,400);
         add(new ReadDirectory());
         setVisible(true);
-        setResizable(false);
+        setResizable(true);
     }
 
 
