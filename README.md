@@ -8,4 +8,7 @@
 6. Запись результатов работы программы (путь к файлу, искомое сообщение, номер строки) в результирующий текстовый файл.
 7. Возможность открыть результирующий файл result.txt в окне программы.
 
-
+ ### <a href="https://github.com/Trushenkov/Files/blob/master/src/ru/tds/files/MainWindow.java"> Mainwindow</a> - главное окно программы <br>
+ ### <a href="https://github.com/Trushenkov/Files/blob/master/src/ru/tds/files/GraphicsInterface.java"> GraphicsInterface </a> - класс, в котором реализован графический интерфейс главного окна программы
+ 
+ ### <a href="https://github.com/Trushenkov/Files/blob/master/src/ru/tds/files/SearchFilesAndText.java"> SearchFilesAndText </a> - класс, в котором реализован поиск html-файлов, поиск заданного сообщения в найденных html-файлах, а также запись информации о найденных сообщениях в результирующий файл <a href="https://github.com/Trushenkov/Files/blob/master/src/ru/tds/result.txt"> result.txt </a> 
