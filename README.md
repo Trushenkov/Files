@@ -12,3 +12,5 @@
  ### <a href="https://github.com/Trushenkov/Files/blob/master/src/ru/tds/files/GraphicsInterface.java"> GraphicsInterface </a> - класс, в котором реализован графический интерфейс главного окна программы
  
  ### <a href="https://github.com/Trushenkov/Files/blob/master/src/ru/tds/files/SearchFilesAndText.java"> SearchFilesAndText </a> - класс, в котором реализован поиск html-файлов, поиск заданного сообщения в найденных html-файлах, а также запись информации о найденных сообщениях в результирующий файл <a href="https://github.com/Trushenkov/Files/blob/master/src/ru/tds/result.txt"> result.txt </a> 
+
+<img src="https://vk.com/feed?z=photo-58798248_456262645%2Falbum-58798248_00%2Frev"> 
