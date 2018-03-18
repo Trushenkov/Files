@@ -101,20 +101,17 @@ public class SearchFilesAndText extends Thread {
      * @param path    путь начальной директории
      * @param message сообщение для поиска
      */
-    public static void main(File path, String message) {
-        try {
-            result = new BufferedWriter(new FileWriter("src\\ru\\tds\\result.txt"));
+    public static void main(File path, String message) throws IOException {
 
-            searchMessagesList = new ArrayList<>();
+        result = new BufferedWriter(new FileWriter("src\\ru\\tds\\result.txt"));
 
-            fileExplorer(path, message);
+        searchMessagesList = new ArrayList<>();
 
-            waitForDieThreads(searchMessagesList);
+        fileExplorer(path, message);
 
-            result.close();
-        } catch (IOException exception) {
-            exception.printStackTrace();
-        }
+        waitForDieThreads(searchMessagesList);
+
+        result.close();
     }
 
     /**
