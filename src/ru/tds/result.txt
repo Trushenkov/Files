@@ -1,0 +1,60 @@
+Path: C:\Users\dmitry\Desktop\копия сайта\dn\mainpage.html; Message for search: head; Line : 2
+
+Path: C:\Users\dmitry\Desktop\копия сайта\dn\mainpage.html; Message for search: head; Line : 50
+
+Path: C:\Users\dmitry\Desktop\копия сайта\dn\mainpage.html; Message for search: head; Line : 74
+
+Path: C:\Users\dmitry\Desktop\копия сайта\dn\mainpage.html; Message for search: head; Line : 76
+
+Path: C:\Users\dmitry\Desktop\копия сайта\dn\mainpage.html; Message for search: head; Line : 81
+
+Path: C:\Users\dmitry\Desktop\копия сайта\mainpage.html; Message for search: head; Line : 2
+
+Path: C:\Users\dmitry\Desktop\копия сайта\mainpage.html; Message for search: head; Line : 50
+
+Path: C:\Users\dmitry\Desktop\копия сайта\history.html; Message for search: head; Line : 2
+
+Path: C:\Users\dmitry\Desktop\копия сайта\history.html; Message for search: head; Line : 29
+
+Path: C:\Users\dmitry\Desktop\копия сайта\history.html; Message for search: head; Line : 40
+
+Path: C:\Users\dmitry\Desktop\копия сайта\history.html; Message for search: head; Line : 42
+
+Path: C:\Users\dmitry\Desktop\копия сайта\history.html; Message for search: head; Line : 43
+
+Path: C:\Users\dmitry\Desktop\копия сайта\history.html; Message for search: head; Line : 60
+
+Path: C:\Users\dmitry\Desktop\копия сайта\history.html; Message for search: head; Line : 61
+
+Path: C:\Users\dmitry\Desktop\копия сайта\mainpage.html; Message for search: head; Line : 74
+
+Path: C:\Users\dmitry\Desktop\копия сайта\mainpage.html; Message for search: head; Line : 76
+
+Path: C:\Users\dmitry\Desktop\копия сайта\mainpage.html; Message for search: head; Line : 81
+
+Path: C:\Users\dmitry\Desktop\копия сайта\pole.html; Message for search: head; Line : 2
+
+Path: C:\Users\dmitry\Desktop\копия сайта\rules.html; Message for search: head; Line : 2
+
+Path: C:\Users\dmitry\Desktop\копия сайта\russianfpl.html; Message for search: head; Line : 2
+
+Path: C:\Users\dmitry\Desktop\копия сайта\rules.html; Message for search: head; Line : 23
+
+Path: C:\Users\dmitry\Desktop\копия сайта\russianfpl.html; Message for search: head; Line : 56
+
+Path: C:\Users\dmitry\Desktop\копия сайта\russianfpl.html; Message for search: head; Line : 68
+
+Path: C:\Users\dmitry\Desktop\копия сайта\russianfpl.html; Message for search: head; Line : 70
+
+Path: C:\Users\dmitry\Desktop\копия сайта\russianfpl.html; Message for search: head; Line : 78
+
+Path: C:\Users\dmitry\Desktop\копия сайта\pole.html; Message for search: head; Line : 34
+
+Path: C:\Users\dmitry\Desktop\копия сайта\pole.html; Message for search: head; Line : 50
+
+Path: C:\Users\dmitry\Desktop\копия сайта\pole.html; Message for search: head; Line : 52
+
+Path: C:\Users\dmitry\Desktop\копия сайта\rules.html; Message for search: head; Line : 34
+
+Path: C:\Users\dmitry\Desktop\копия сайта\rules.html; Message for search: head; Line : 36
+
