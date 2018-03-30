@@ -23,8 +23,7 @@ public class SearchFilesAndText extends Thread {
 
     private static int numberOfThread = 0;
 
-
-    SearchFilesAndText(File file, String message) {
+    private SearchFilesAndText(File file, String message) {
         this.file = file;
         this.message = message;
     }
@@ -58,7 +57,7 @@ public class SearchFilesAndText extends Thread {
             File[] files = pathDirectory.listFiles();
             assert files != null;
             for (int i = 0; i < files.length; i++) {
-                if (files[i].isFile() && files[i].getName().matches(".*\\.html$")) {
+                if (files[i].isFile() && files[i].getName().matches(".*\\.txt$")) {
 
                     searchMessagesList.add(new SearchFilesAndText(files[i], messageForSearch));
                     searchMessagesList.get(numberOfThread).start();
@@ -69,7 +68,7 @@ public class SearchFilesAndText extends Thread {
                 }
             }
         } catch (NullPointerException e) {
-            e.printStackTrace();
+//            e.printStackTrace();
         }
     }
 
@@ -87,7 +86,7 @@ public class SearchFilesAndText extends Thread {
 
                 if (mSearchStr.find()) {
                     writeFoundedMessage("Path: " + file.getPath() + "; Message for search: " + mSearchStr.group() +
-                            "; Line : " + i + "\r\n");
+                            "; Line : " + i);
                 }
             }
         } catch (IOException e) {
@@ -96,7 +95,7 @@ public class SearchFilesAndText extends Thread {
     }
 
     /**
-     * Метод, в котором запускается fileExplorer() - метод для поиска html-файлов.
+     * Метод, в котором запускается fileExplorer() - метод для поиска файлов.
      *
      * @param path    путь начальной директории
      * @param message сообщение для поиска
