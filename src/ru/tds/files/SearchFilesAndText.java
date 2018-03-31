@@ -19,7 +19,7 @@ public class SearchFilesAndText extends Thread {
 
     private static volatile BufferedWriter result;
 
-    private static ArrayList<SearchFilesAndText> searchMessagesList;
+    private static ArrayList<SearchFilesAndText> arrayListOfThreads;
 
     private static int numberOfThread = 0;
 
@@ -56,19 +56,19 @@ public class SearchFilesAndText extends Thread {
         try {
             File[] files = pathDirectory.listFiles();
             assert files != null;
-            for (int i = 0; i < files.length; i++) {
-                if (files[i].isFile() && files[i].getName().matches(".*\\.txt$")) {
+            for (File file : files) {
+                if (file.isFile() && file.getName().matches(".*\\.txt$")) {
 
-                    searchMessagesList.add(new SearchFilesAndText(files[i], messageForSearch));
-                    searchMessagesList.get(numberOfThread).start();
+                    arrayListOfThreads.add(new SearchFilesAndText(file, messageForSearch));
+                    arrayListOfThreads.get(numberOfThread).start();
                     numberOfThread++;
 
-                } else if (files[i].isDirectory()) {
-                    fileExplorer(files[i], messageForSearch);
+                } else if (file.isDirectory()) {
+                    fileExplorer(file, messageForSearch);
                 }
             }
         } catch (NullPointerException e) {
-//            e.printStackTrace();
+            e.printStackTrace();
         }
     }
 
@@ -104,11 +104,11 @@ public class SearchFilesAndText extends Thread {
 
         result = new BufferedWriter(new FileWriter("src\\ru\\tds\\result.txt"));
 
-        searchMessagesList = new ArrayList<>();
+        arrayListOfThreads = new ArrayList<>();
 
         fileExplorer(path, message);
 
-        waitForDieThreads(searchMessagesList);
+        waitForDieThreads(arrayListOfThreads);
 
         result.close();
     }
